@@ -32,11 +32,15 @@
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="main.css">
+    <Content Include="css\main.css">
       <SubType>Code</SubType>
     </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
+    <Folder Include="js\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
