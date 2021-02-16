@@ -35,6 +35,12 @@
     <Content Include="css\main.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="js\game.js">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="js\main.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
