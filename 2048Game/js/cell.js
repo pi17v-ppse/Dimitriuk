@@ -11,9 +11,7 @@ class Cell {
             this.value = Math.random() > 0.5 ? 4 : 2;
         }
 
-        this.element.onclick = function (e) {
-            this.merge;
-        }.bind(this);
+        this.element.onclick = this.merge.bind(this);
     }
 
     get value() {
