@@ -2,9 +2,9 @@
 
 class Cell {
     constructor(fieldElement) {
-        let cellElement = createAndAppend({
+        this.element = createAndAppend({
             className: 'cell',
-            this.element: fieldElement
+            parentElement: fieldElement
         });
 
         if (Math.random() > 0.8) {

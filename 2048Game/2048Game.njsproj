@@ -35,6 +35,9 @@
     <Content Include="css\main.css">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="js\cell.js">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="js\game.js">
       <SubType>Code</SubType>
     </Content>
