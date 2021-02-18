@@ -15,7 +15,7 @@ class Cell {
     }
 
     get value() {
-        return this._value || 1;
+        return this._value || 0;
     }
 
     set value(value) {
