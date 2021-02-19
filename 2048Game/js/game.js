@@ -1,4 +1,27 @@
+
+/**
+ * Игровое поле
+ *
+ * Класс описывает игровое поле
+ * с базовыми характеристиками.
+ *
+ * @author Dmitrii Dimitriuk
+ * @version 0.0.5
+ * @copyright GNU Public License
+ * @todo Реализовать все методы
+ */
 class Game {
+
+    /**
+    * помогает создать поля игры
+    *
+    * @param any $parentElement
+    * родительский элемент
+    * @param HTMLElement $gameFieldElement
+    * элемент игрового поля
+    * @param HTMLElement $headerElement
+    * элемент игрового поля
+    */
     constructor(parentElement, size = 4) {
         let gameFieldElement = createAndAppend({
             className: 'game',
