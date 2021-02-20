@@ -1,16 +1,16 @@
-
+п»ї
 /**
-    * помогает создать и прикрепить 
-    * элемент веб приложения
+    * РїРѕРјРѕРіР°РµС‚ СЃРѕР·РґР°С‚СЊ Рё РїСЂРёРєСЂРµРїРёС‚СЊ 
+    * СЌР»РµРјРµРЅС‚ РІРµР± РїСЂРёР»РѕР¶РµРЅРёСЏ
     *
     * @param any $parentElement
-    * родительский элемент
+    * СЂРѕРґРёС‚РµР»СЊСЃРєРёР№ СЌР»РµРјРµРЅС‚
     * @param any $className
-    * имя класса
+    * РёРјСЏ РєР»Р°СЃСЃР°
     * @param any $value
-    * значение элемента
+    * Р·РЅР°С‡РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°
     * @param string $tag
-    * значение элемента
+    * Р·РЅР°С‡РµРЅРёРµ СЌР»РµРјРµРЅС‚Р°
     */
 let createAndAppend = function ({ className, parentElement, value, tag } = { className, parentElement, value, tag: 'div' }) {
     let element = document.createElement(tag);
@@ -24,10 +24,10 @@ let createAndAppend = function ({ className, parentElement, value, tag } = { cla
 }
 
 /**
-    * создает экземпляр 
-    * класса Game
+    * СЃРѕР·РґР°РµС‚ СЌРєР·РµРјРїР»СЏСЂ 
+    * РєР»Р°СЃСЃР° Game
     * 
     * @param HTMLElement $body
-    * тело документа
+    * С‚РµР»Рѕ РґРѕРєСѓРјРµРЅС‚Р°
     */
 new Game(document.body, 4);
